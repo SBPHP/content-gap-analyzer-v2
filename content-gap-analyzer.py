@@ -1505,7 +1505,7 @@ def main():
         try:
             st.image("logo.png", width=120)
         except:
-            st.write("🎯")  # Fallback emoji if no logo
+            st.write("")  # Fallback emoji if no logo
     
     with col2:
         st.title("Content Gap Analyzer")
@@ -1647,10 +1647,7 @@ def main():
         st.markdown("---")
         st.markdown("""
         <div style='text-align: center; color: #666; font-size: 12px;'>
-            Made with ❤️ by<br>
-            <a href='https://tororank.com/' target='_blank' style='color: #ff4b4b; text-decoration: none;'>
-                TORO RANK
-            </a>
+
         </div>
         """, unsafe_allow_html=True)
     
